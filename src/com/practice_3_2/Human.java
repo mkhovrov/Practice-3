@@ -6,12 +6,12 @@ public class Human {
     public Leg leftLeg, rightLeg;
     public Hand leftHand, rightHand;
 
-    public Human(String headColor, String eyeColor, int speed, int strong) {
+    public Human(String headColor, String eyeColor, int speed, int strenght) {
         this.head = new Head(headColor, eyeColor);
         this.leftLeg = new Leg(false, speed);
         this.rightLeg = new Leg(true, speed);
-        this.leftHand = new Hand(false, strong);
-        this.rightHand = new Hand(true, strong);
+        this.leftHand = new Hand(false, strenght);
+        this.rightHand = new Hand(true, strenght);
     }
 
     public void setHead(Head head) {

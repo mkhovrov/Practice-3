@@ -3,11 +3,11 @@ package com.practice_3_2;
 public class Hand {
 
     public boolean isRight;
-    public int strong;
+    public int strenght;
 
-    public Hand(boolean isRight, int strong) {
+    public Hand(boolean isRight, int strenght) {
         this.isRight = isRight;
-        this.strong = strong;
+        this.strenght = strenght;
     }
 
     public void setRight(boolean right) {
@@ -17,11 +17,11 @@ public class Hand {
         return isRight;
     }
 
-    public void setStrong(int strong) {
-        this.strong = strong;
+    public void setStrenght(int strenght) {
+        this.strenght = strenght;
     }
-    public int getStrong() {
-        return strong;
+    public int getStrenght() {
+        return strenght;
     }
 
     public String canDo() {
